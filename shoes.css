@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Futura Bold Italic font";
+    src: url("/font/Futura\ Bold\ Italic\ font.ttf")
+   }
+   
+.big-container {
+    background-color: rgba(10, 10, 10, 0.932);
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+    border: solid 1px;
+    margin: auto;
+    position: relative;
+    border-radius: 25px;
+}
+
+.big-container::before {
+    content: "Nike";
+    color: greenyellow;
+    font-size: 15rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 250px;
+    left:0px;
+    left: -50px;
+    font-family: Futura Bold Italic font;
+}
+.big-container:hover .green-container {
+    width: 900px;
+    height: 900px;
+    top: -650px; 
+    right: -300px;
+}
+.big-container:hover .shoes-container {
+    top:-45px;
+    left: -90px;
+
+}
+.under-green-container {
+    display: none;
+}
+.big-container:hover .under-green-container {
+    display: block;
+    top:25px;
+    right: 50px;
+}
+
+.green-container {
+  width: 300px;
+  height: 300px;
+  background-color: greenyellow;
+  border-radius: 50%; 
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: -50px;
+  position: absolute;
+  
+}
+img {
+    width: 300px;
+    transform: rotate(-30deg);
+    margin-left: 60px;
+    margin-top: 160px;
+}
+.shoes-container {
+    width: 500px;
+    height: 300px;
+margin-left: 20px;
+margin-top: 10px;
+position: absolute
+}
+.nike-container {
+    width: 200px;
+    height: 50px;
+    background-color: ;
+    color: white;
+    margin: auto;
+    margin-top: 250px;
+    font-weight: bold;
+    font-size: larger;
+    display: block;
+  
+    text-align: center;
+}
+.big-container:hover .nike-container {
+    margin-top: 50px;
+}
+span {
+    text-align: center;
+}
+.image-and-rond-container {
+    width: 500px;
+    height: 300px;
+ 
+}
+.size-container {
+    width: 500px;
+    height: 50px;
+    color: white;
+    display:flex;
+ 
+}
+.size {
+    margin-left: 100px;
+}
+.number {
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+    display: flex;
+    margin-left: 10px;
+    color: black;
+    padding: 7px;
+    
+}
+.color-container {
+    width: 500px;
+    height: 50px;
+    color: aliceblue;
+    display: inline-flex;
+    margin-left: 100px;
+}
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.green {
+    background-color: greenyellow;
+}
+.blue {
+    background-color: rgb(19, 131, 165);
+}
+.pink {
+    background-color: rgb(170, 13, 165);
+}
