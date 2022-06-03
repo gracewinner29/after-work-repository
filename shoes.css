@@ -39,7 +39,7 @@
 .under-green-container {
     display: none;
 }
-.big-container:hover .under-green-container {
+.big-container:hover .under-green-container { 
     display: block;
     top:25px;
     right: 50px;
@@ -72,7 +72,6 @@ position: absolute
 .nike-container {
     width: 200px;
     height: 50px;
-    background-color: ;
     color: white;
     margin: auto;
     margin-top: 250px;
